@@ -1,5 +1,6 @@
 import java.util.Scanner;
-public class ElectricBill {
+
+public class ElectricityBill  {
     public static void main(String arg[])
     {
         Scanner sc=new Scanner(System.in);
@@ -20,7 +21,7 @@ public class ElectricBill {
                 rate = 6.5;
             else if (meterunits <= 300)
                 rate = 7.5;
-            else 
+            else
                 rate = 8.5;
 
             bill = (meterunits * rate) + 100;
@@ -29,3 +30,4 @@ public class ElectricBill {
         }
     }
 }
+
